@@ -9,6 +9,7 @@ const Home = () => {
         <meta name="description" content="Welcome to Source Investments. We help you grow your business." />
         <meta name="keywords" content="investment, finance, hero, landing" />
         <link rel="canonical" href="https://yourdomain.com/" />
+        <link rel="canonical" href="https://yourdomain.com/" />
       </Helmet>
       <Hero />
     </>
