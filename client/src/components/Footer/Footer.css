@@ -1,0 +1,437 @@
+.footer-wrapper {
+    /* background-color: #0F0A1C; */
+    background-color: #0F0A1C;
+
+    color: #fff;
+    padding: 60px 20px 30px;
+    /* font-family: sans-serif; */
+  }
+  
+  .footer-first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .footer-logo img {
+    width: 200px;
+    height: auto;
+    
+  }
+  
+  .footer-first h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-first ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-first ul li {
+    margin-bottom: 10px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .footer-first ul li a{
+    text-decoration: none;
+    color: #ccc;
+  }
+  
+  .footer-first ul li:hover {
+    color: #fff;
+  }
+  
+  .subscribe {
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .inner-sub h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .inner-sub p {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .footer-icons svg {
+    color: #fff;
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+  
+  .footer-icons svg:hover {
+    color: #ff6b00;
+  }
+  
+  .footer-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+  }
+  
+  .footer-second a {
+    font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+  .footer-second div {
+    display: flex;
+    gap: 20px;
+  }
+
+    .footer-second p{
+       font-size: 12px;
+           display: flex;
+    flex-direction: column;
+    }
+  
+  /* @media (min-width: 768px) {
+    .footer-second {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  } */
+
+  .demo-section {
+  background-color: #2C0E4A;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+.demo-button {
+  background-color: #c29cff;
+  color: black;
+  font-weight: 600;
+  padding: 14px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.demo-button:hover {
+  background-color: #a367ff;
+  color: #fff;
+  transform: translateY(-2px);
+}
+  
+
+
+
+
+   /* For iPhone SE and similar devices (max-width: 375px) */
+@media only screen and (max-width: 375px) {
+  .footer-first {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-logo img {
+    width: 140px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-second div {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .footer-second a {
+    font-size: 12px;
+  }
+
+  .subscribe {
+    max-width: 100%;
+  }
+
+  .inner-sub p {
+    font-size: 13px;
+  }
+}
+
+/* For iPhone 12 Pro (max-width: 390px) */
+@media only screen and (max-width: 390px) {
+  .footer-logo img {
+    width: 150px;
+  }
+
+  .footer-first {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-second div {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .footer-second a {
+    font-size: 13px;
+  }
+}
+
+/* For iPhone XR and similar devices (max-width: 414px) */
+@media only screen and (max-width: 414px) {
+  .footer-logo img {
+    width: 160px;
+  }
+
+  .footer-first {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-second div {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .footer-second a {
+    font-size: 13.5px;
+  }
+}
+
+/* For tablets (e.g., iPads, 600px–768px) */
+@media only screen and (max-width: 768px) {
+  .footer-first {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .footer-logo img {
+    width: 170px;
+  }
+
+  .footer-second {
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .footer-second div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* Optional: Slight compression for small laptops (up to 1024px) */
+@media only screen and (max-width: 1024px) {
+  .footer-wrapper {
+    padding: 40px 20px 20px;
+  }
+
+  .footer-logo img {
+    width: 180px;
+  }
+}
+
+
+
+
+.footer-services-contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* On very small screens, stack vertically again */
+@media (max-width: 414px) {
+  .footer-services-contacts {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .footer-services-contacts {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Override for iPhone XR (414px), iPhone 12 Pro (390px), iPhone 14 Pro Max (430px) */
+@media only screen and (max-width: 430px) and (min-width: 376px) {
+  .footer-services-contacts {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-services-contacts {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .footer-services-contacts {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-section {
+    flex: 1;
+    min-width: 120px;
+  }
+}
+
+
+/* ----------------------- */
+
+
+
+.footer-left {
+  max-width: 300px;
+  margin-left: 60px;
+}
+
+.footer-description {
+  margin: 20px 0;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-services-contacts {
+  display: flex;
+  gap: 50px; 
+  flex-wrap: wrap;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.footer-section {
+  min-width: 160px;
+}
+
+
+.footer-top-sections {
+  display: flex;
+  gap: 130px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-services-contacts{
+    display: flex;
+  gap: 130px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+@media only screen and (max-width: 430px) {
+  .footer-top-sections {
+    flex-direction: row;
+    
+    justify-content: center;
+    gap: 10px;
+  }
+
+    .footer-left {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-services-contacts {
+  display: flex;
+  gap: 50px; 
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+  .footer-top-sections .footer-section {
+    flex: 0 0 45%;
+    min-width: 160px;
+    text-align: center;
+  }
+
+  .services-alone {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+

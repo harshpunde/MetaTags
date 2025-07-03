@@ -1,20 +1,6 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-input, textarea {
-  margin: 8px 0;
-  padding: 10px;
-}
-button {
-  padding: 10px;
-  background: #333;
-  color: #fff;
-  border: none;
+.main {
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(341.69deg, #3B187000 21.43%, #150B2580 50%, #2C0E4A 78.57%);
 }

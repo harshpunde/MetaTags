@@ -1,0 +1,37 @@
+.pillars-card-component{
+  width: 100%;
+  max-width: 290px;
+  background-color: #1A0B2E;
+  color: #EDE9F3;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.pillars-card-component .pillars-card-comp-img{
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.pillars-card-component.pillars-card-comp-img img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pillars-card-component h4{
+  margin-top: 20px;
+  font-size: 20px;
+  color: #B083FF;
+}
+
+.pillars-card-component .pillar-card-comp-para{
+  
+  font-size: 14px;
+  margin-top: 15px;
+}
