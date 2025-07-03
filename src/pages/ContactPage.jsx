@@ -10,7 +10,7 @@ const ContactPage = () => {
   <title>Get in Touch | Jincora’s E-commerce & Shopify Experts</title>
   <meta
     name="description"
-    content="Have questions or need a custom ecommerce solution? Contact Jincora’s Shopify experts today for professional support, website design, and development services."
+    content="need a custom ecommerce solution? Contact Jincora’s Shopify experts today for professional support, website design, and development services."
   />
   <meta
     name="keywords"
